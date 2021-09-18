@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mycounter.MainActivity">
+    <item
+        android:id="@+id/f1"
+        android:title="进制转换"
+        >
+        <menu>
+                <item
+                    android:id="@+id/s1"
+                    android:title="二进制"/>
+                <item
+                    android:id="@+id/s2"
+                    android:title="八进制"/>
+                <item
+                    android:id="@+id/s3"
+                    android:title="十进制"/>
+                <item
+                    android:id="@+id/s4"
+                    android:title="十六进制"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/f2"
+        android:title="长度（英寸转换厘米）"/>
+    <item
+        android:id="@+id/f3"
+        android:title="体积（公制转英制）"/>
+</menu>
