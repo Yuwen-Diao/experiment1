@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         edit = (EditText) findViewById(R.id.edit);
         view = (TextView) findViewById(R.id.view);
         add = (Button) findViewById(R.id.add);
-        substact = (Button) findViewById(R.id.substact);
+        substract = (Button) findViewById(R.id.substract);
         multiply = (Button) findViewById(R.id.multiply);
         divide = (Button) findViewById(R.id.divide);
         seven = (Button) findViewById(R.id.seven);
